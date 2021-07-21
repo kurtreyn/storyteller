@@ -7,27 +7,7 @@ body{
 }
 
 
-.banner{
-  margin: auto;
-  display:block;
-  max-width: 970px;
-  max-height: 250px;
-  border: 1px solid #000;
-}
 
-.film-covers{
-  margin:auto;
-  max-width:100%;
-  display: inline-flex;
-}
-
-.cover-image{
-  margin:auto;
-  display:inline-block;
-  width:19%
-}
-
-/* BEGIN NAVIGATION AREA - ALL PAGES */
 .navBar-section1 {
   height: 65px;
   width: 50%;
@@ -90,47 +70,79 @@ body{
   background: #616268;
 }
 
-/* END NAVIGATION AREA - ALL PAGES*/
 
 
 
 
-/* FOOTER AREA - ALL PAGES */
 
 
-.left-container{
-  max-width:33%;
-  display:inline-block;
-  
+
+
+/* Navigation Bar */
+/*
+.navBar ul {
+  list-style: none;
+  background:#000000;
+  padding:10px;
+  margin:-10px;
   text-align: right;
-  height:40px;
 }
 
-.center-container{
-  max-width:33%;
+.navBar li {
   display: inline-block;
-  
-  text-align: center;
-  height:40px;
 }
 
-.right-container {
-  max-width:33%;
-  display:inline-block;
+
+.navBar a {
+  text-decoration:none;
+  color:#ffffff;
+  /*width:100%;
+  display:block;
+  text-transform:uppercase;
+  padding: 5px 2px;
+  font-weight:bold;
+  text-align:center;
+  font-size:14px;
   
-  text-align: left;
-  height:40px;
 }
-  
-.FaceBookIcon{
-  max-width:8%;
-  
+
+.navBar a:hover {
+  background: #616268;
+}
+*/
+
+
+.banner{
+  margin: auto;
+  display:block;
+  max-width: 970px;
+  max-height: 250px;
+  border: 1px solid #000;
+}
+
+.film-covers{
+  margin:auto;
+  max-width:100%;
+  display: inline-flex;
+}
+
+.cover-image{
+  margin:auto;
+  display:inline-block;
+  width:19%
+}
+
+
+/* KEEP FOOTER STYLE */
+.footer-border{
+  background:#000000;
+  width:100%;
+  margin:auto;
+  text-align: center;
 }
 
 .footer-image{
-  max-width:20%;
-}
-
-.YouTubeIcon {
-  max-width:30%;
+  display: flexbox;
+  max-width: 15%;
+  max-height: 15%;
 }
