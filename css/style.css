@@ -6,66 +6,91 @@ body{
   font-style: normal;
 }
 
+.grid-container{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-rows: auto;
+  grid-template-areas: 
+   "banner banner banner"
+   "pageID grid3 navMenu"
+   "portfolio-description portfolio-description portfolio-description"
+   "film-covers film-covers film-covers"
+   "slider slider blurb"
+   "footer-area footer-area footer-area"
 
-.banner{
-  margin: auto;
-  display:block;
-  max-width: 970px;
-  max-height: 250px;
-  border: 1px solid #000;
+   
 }
 
-.film-covers{
-  margin:auto;
-  max-width:100%;
-  display: inline-flex;
-}
-
-.cover-image{
-  margin:auto;
-  display:inline-block;
-  width:19%
-}
-
-/* BEGIN NAVIGATION AREA - ALL PAGES */
-.navBar-section1 {
-  height: 65px;
-  width: 50%;
-  z-index:500;
-  display:inline-block;
-  position:fixed;
-  left:0px;
-  top:0px;
-  background: #000000;
+.top-banner {
+  grid-area: banner;
+  text-align:center;
+  width: auto;
 }
 
 .pageID {
-  margin-left:6px;
-}
-
-.navBar-section2 {
-  height:65px;
-  width: 50%;
-  z-index:1000;
-  display:inline-block;
-  position:fixed;
-  right:0px;
-  top:0px;
+  grid-area:pageID;
   background-color: #000000;
+  width: auto;
+  text-align: left;
 }
 
-.navMenu{
-  position:fixed;
-  top:0px;
-  right:0px;
+.grid3 {
+  grid-area:grid3;
+  background-color: #000000;
+  width: auto;
 }
 
+.navMenu {
+  grid-area:navMenu;
+  background-color: #000000;
+  width: auto;
+}
+
+.portfolio-description{
+  grid-area:portfolio-description;
+  max-width:auto;
+  text-align: center;
+}
+
+.film-covers{
+  grid-area:film-covers;
+  max-width:auto;
+  text-align: center;
+}
+
+.slider{
+  grid-area:slider;
+  width: auto;
+}
+
+.blurb {
+  width: auto;
+  color:#FFFFFF;
+}
+
+.grid-item-8 {
+  width: auto;
+}
+
+.footer-area{
+  grid-area:footer-area;
+  background-color: #000000;
+  width:auto;
+}
+
+.grid-item-10 {
+  width: auto;
+}
+
+.grid-item-11 {
+  width: auto;
+  
+}
+
+/*NAV MENU STYLE*/
 .navMenu ul {
   list-style: none;
-  background:#000000;
-  padding:10px;
-  margin-right:10px;
-  text-align: right;
+  bottom:0px;
 }
 
 .navMenu li {
@@ -89,48 +114,42 @@ body{
 .navMenu a:hover {
   background: #616268;
 }
+/*NAV MENU STYLE*/
 
-/* END NAVIGATION AREA - ALL PAGES*/
-
-
-
-
-/* FOOTER AREA - ALL PAGES */
-
-
-.left-container{
-  max-width:33%;
+/*FILM COVERS*/
+.cover-image {
+  max-width:15%;
   display:inline-block;
-  
-  text-align: right;
-  height:40px;
-}
-
-.center-container{
-  max-width:33%;
-  display: inline-block;
-  
   text-align: center;
-  height:40px;
 }
 
-.right-container {
-  max-width:33%;
-  display:inline-block;
-  
-  text-align: left;
-  height:40px;
+/*IMAGE SLIDER*/
+.slider{
+  width:auto;
 }
-  
+
+.img-box{
+  max-width:100%;
+}
+
+.slider-images{
+  width:90%;
+}
+
+/*FOOTER*/
+.footer-area{
+  display: inline-block;
+  text-align: center;
+}
+
 .FaceBookIcon{
-  max-width:8%;
-  
+  max-width:10%;
 }
 
 .footer-image{
   max-width:20%;
 }
 
-.YouTubeIcon {
-  max-width:30%;
+.YouTubeIcon{
+  max-width:10%;
 }
