@@ -6,6 +6,8 @@ body{
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
 }
+
+
 /*--------------INDEX GRID STYLE-----------------*/
 .grid-container{
   display:grid;
@@ -24,7 +26,7 @@ body{
   grid-area: banner;
   background-color:#000000;
   text-align:center;
-  width: auto;
+  width: 100%;
 }
 
 .pageID {
@@ -194,3 +196,271 @@ body{
 }
 /*FOOTER*/
 
+
+/* ----------- RESPONSIVE CONTROLS -------------------- */
+
+@media all and (max-width: 375px) {
+  .grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+     "navMenu navMenu"
+     "portfolio-description portfolio-description"
+     "film-covers film-covers"
+     "blurb blurb"
+     "footer-area footer-area"
+  }
+  .top-banner {
+    grid-area: banner;
+    background-color:#000000;
+    text-align:center;
+    max-width: 100%;
+  }
+
+  .topBanner {
+    max-width:50%
+  }
+  
+  
+  .grid3 {
+    grid-area:grid3;
+    background-color: #000000;
+    width: auto;
+  }
+  
+  .navMenu {
+    grid-area:navMenu;
+    background-image: url(../media/common/banner.png);
+    background-size:100%;
+    margin-bottom: 2px;
+  }
+  
+  .portfolio-description{
+    grid-area:portfolio-description;
+    max-width:auto;
+    text-align: left;
+  }
+  
+  .film-covers{
+    grid-area:film-covers;
+    max-width:auto;
+    text-align: center;
+  }
+
+  
+  .blurb {
+    display:none;
+    max-width: 100%;
+    color:#FFFFFF;
+    margin-left:20px;
+  }
+  
+  .grid-item-8 {
+    width: auto;
+  }
+  
+  .footer-area{
+    grid-area:footer-area;
+    background-color: #000000;
+    width:auto;
+  }
+  
+  .grid-item-10 {
+    width: auto;
+  }
+  
+  .grid-item-11 {
+    width: auto;
+  }
+  /*--------------INDEX GRID STYLE-----------------*/
+  
+  /*NAV MENU STYLE*/
+  .navMenu ul {
+    list-style: none;
+    bottom:0px;
+  }
+  
+  .navMenu li {
+    display: inline-block;
+  }
+  
+  .navMenu a {
+    text-decoration:none;
+    color:#ffffff;
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    margin-top:0px;
+    padding:4px;
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+    border: solid #fff 1px;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  
+ 
+  /*FILM COVERS*/
+  .cover-image {
+    max-width:100%%;
+    display:inline-block;
+    text-align: left;
+  }
+  
+  
+  
+  /*FOOTER*/
+  .footer-area{
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .FaceBookIcon{
+    max-width:10%;
+  }
+  
+  .footer-image{
+    max-width:20%;
+  }
+  
+  .YouTubeIcon{
+    max-width:10%;
+  }
+}
+
+/* ----------- RESPONSIVE CONTROLS -------------------- */
+
+/* ----------- RESPONSIVE CONTROLS -------------------- */
+
+@media all and (max-width: 400px) {
+  .grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+     "navMenu navMenu"
+     "portfolio-description portfolio-description"
+     "film-covers film-covers"
+     "blurb blurb"
+     "footer-area footer-area"
+  }
+  .top-banner {
+    grid-area: banner;
+    background-color:#000000;
+    text-align:center;
+    max-width: 100%;
+  }
+
+  .topBanner {
+    max-width:50%
+  }
+  
+  
+  .grid3 {
+    grid-area:grid3;
+    background-color: #000000;
+    width: auto;
+  }
+  
+  .navMenu {
+    grid-area:navMenu;
+    background-image: url(../media/common/banner.png);
+    background-size:100%;
+    margin-bottom: 2px;
+  }
+  
+  .portfolio-description{
+    grid-area:portfolio-description;
+    max-width:auto;
+    text-align: left;
+  }
+  
+  .film-covers{
+    grid-area:film-covers;
+    max-width:auto;
+    text-align: center;
+  }
+
+  
+  .blurb {
+    display:none;
+    max-width: 100%;
+    color:#FFFFFF;
+    margin-left:20px;
+  }
+  
+  .grid-item-8 {
+    width: auto;
+  }
+  
+  .footer-area{
+    grid-area:footer-area;
+    background-color: #000000;
+    width:auto;
+  }
+  
+  .grid-item-10 {
+    width: auto;
+  }
+  
+  .grid-item-11 {
+    width: auto;
+  }
+  /*--------------INDEX GRID STYLE-----------------*/
+  
+  /*NAV MENU STYLE*/
+  .navMenu ul {
+    list-style: none;
+    bottom:0px;
+  }
+  
+  .navMenu li {
+    display: inline-block;
+  }
+  
+  .navMenu a {
+    text-decoration:none;
+    color:#ffffff;
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    margin-top:0px;
+    padding:4px;
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+    border: solid #fff 1px;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  
+ 
+  /*FILM COVERS*/
+  .cover-image {
+    max-width:100%%;
+    display:inline-block;
+    text-align: left;
+  }
+  
+  
+  
+  /*FOOTER*/
+  .footer-area{
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .FaceBookIcon{
+    max-width:10%;
+  }
+  
+  .footer-image{
+    max-width:20%;
+  }
+  
+  .YouTubeIcon{
+    max-width:10%;
+  }
+}
+
+/* ----------- RESPONSIVE CONTROLS -------------------- */
