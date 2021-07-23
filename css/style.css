@@ -6,7 +6,7 @@ body{
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
 }
-
+/*--------------INDEX GRID STYLE-----------------*/
 .grid-container{
   display:grid;
   grid-template-columns: 33% 33% 33%;
@@ -18,8 +18,6 @@ body{
    "film-covers film-covers film-covers"
    "slider slider blurb"
    "footer-area footer-area footer-area"
-
-   
 }
 
 .top-banner {
@@ -115,10 +113,6 @@ body{
 }
 /*IMAGE SLIDER SECTION ON INDEX*/
 
-
-
-
-
 .blurb {
   width: auto;
   color:#FFFFFF;
@@ -141,8 +135,8 @@ body{
 
 .grid-item-11 {
   width: auto;
-  
 }
+/*--------------INDEX GRID STYLE-----------------*/
 
 /*NAV MENU STYLE*/
 .navMenu ul {
@@ -198,3 +192,5 @@ body{
 .YouTubeIcon{
   max-width:10%;
 }
+/*FOOTER*/
+
