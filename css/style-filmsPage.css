@@ -1,0 +1,260 @@
+
+
+body{
+    background-color: rgba(0, 0, 0, .9);
+    color:#fff;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  
+  #grid-container{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "banner banner banner"
+    "pageID gridSpacer-ID-menu navMenu"
+    "G G G"
+    "J K K"
+    "M N O"
+    "P P R"
+    "S T U"
+    "W Y Y"
+    "footer-area footer-area footer-area"
+  }
+  
+  .banner {
+    grid-area: banner;
+    background-color:#000000;
+    text-align:center;
+    width: auto;
+  }
+
+  /*.B {
+    grid-area: B;
+    background-color: #f06161;
+    width: 100%;
+    font-size: 90px;
+    color: #FFF;
+}
+
+.C {
+    grid-area: C;
+    background-color: #3ec20a;
+    width: 100%;
+    font-size: 90px;
+    color: #FFF;
+}*/
+
+.pageID {
+    grid-area:pageID;
+    background-color: #000000;
+    width: auto;
+    text-align: left;
+  }
+
+  .gridSpacer-ID-menu {
+    grid-area:gridSpacer-ID-menu;
+    background-color: #000000;
+    width: auto;
+    font-size: 80px;
+    color:#fff;
+  }
+
+  .navMenu {
+    grid-area:navMenu;
+    background-color: #000000;
+    width: auto;
+  }
+
+.G {
+    grid-area: G;
+    width: 100%;
+    height: 20px;
+   
+}
+
+/*.H {
+    grid-area: H;
+    background-color: #74041c;
+    width: 100%;
+    font-size: 90px;
+    color: #FFF;
+    border: solid 1px #fff;
+}
+
+.I {
+    grid-area: I;
+    background-color: #1f1933;
+    width: 100%;
+    font-size: 90px;
+    color: #FFF;
+    border: solid 1px #fff;
+}*/
+
+.J {
+    grid-area: J;
+    width: 100%;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 20px;
+    
+}
+
+.K {
+    grid-area: K;
+    margin-right: 100px;
+    width: 100%;
+    text-align: right;
+}
+
+.L {
+    grid-area: L;
+    background-color: #043352;
+    width: 100%;
+    font-size: 90px;
+    color: #FFF;
+    border: solid 1px #fff;
+}
+
+.M {
+    grid-area: M;
+    width: 100%;
+    height: 20px;
+}
+
+.N {
+    grid-area: N;
+    width: 100%;
+    height: 20px;
+}
+
+.O {
+    grid-area: O;
+    width: 100%;
+    height: 20px;
+}
+
+.P {
+    grid-area: P;
+    margin-right: 100px;
+    width: 100%;
+    text-align: left;
+}
+
+.Q {
+    grid-area: Q;
+    width: 100%;
+    height: 20px;
+}
+
+.R {
+    grid-area: R;
+    width: 100%;
+    font-size: 14px;
+    color: #FFF;
+    margin-right: 20px;
+}
+
+.S {
+    grid-area: S;
+    width: 100%;
+    height: 20px;
+}
+
+.T {
+    grid-area: T;
+    width: 100%;
+    height: 20px;
+}
+
+.U {
+    grid-area: U;
+    width: 100%;
+    height: 20px;
+}
+
+.footer-area{
+    grid-area:footer-area;
+    background-color: #000000;
+    width:auto;
+  }
+
+.W {
+    grid-area: W;
+    width: 100%;
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.X {
+    grid-area: X;
+    background-color: #043352;
+    width: 100%;
+   
+}
+
+.Y {
+    grid-area: Y;
+    margin-right: 100px;
+    width: 100%;
+    text-align: right;
+}
+ 
+  
+  /*NAV MENU STYLE*/
+  .navMenu ul {
+    list-style: none;
+    bottom:0px;
+  }
+  
+  .navMenu li {
+    display: inline-block;
+  }
+  
+  .navMenu a {
+    text-decoration:none;
+    color:#ffffff;
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    margin-top:0px;
+    padding:4px;
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+    border: solid #fff 1px;
+  }
+  
+  .navMenu a:hover {
+    background: #616268;
+  }
+  /*NAV MENU STYLE*/
+  
+ .stills{
+     max-width: 80%;
+ }
+  
+  
+  
+  /*FOOTER*/
+  .footer-area{
+    text-align: center;
+  }
+  
+  .FaceBookIcon{
+    max-width:10%;
+  }
+  
+  .footer-image{
+    max-width:20%;
+  }
+  
+  .YouTubeIcon{
+    max-width:10%;
+  }
+  /*FOOTER*/
+  
+  
