@@ -1,25 +1,21 @@
 
-	var i = 0; // Start point
-	var images = [];
-	var time = 1000;
+const slideshowImages = document.querySelectorAll("intro .slider-image");
 
-	// Image List
-	images[0] = 'media/ghost-captured.png';
-	images[1] = 'media/ghost-creator.png';
-	images[2] = 'media/ghost-captured.png';
-	images[3] = 'danger-explosion.png';
+const nextImageDelay = 3000
+let currentImageCounter = 0;
+const tempCounter = currentImageCounter;
 
-	// Change Image
-	function changeImg(){
-		document.slide.src = images[i];
+slideshowImages[currentImageCounter].style.opacity = 1;
 
-		if(i < images.length - 1){
-			i++;
-		} else {
-			i = 0;
-		}
+setInterval(nextImage, nextImageDelay);
 
-		setTimeout("changeImg()", time);
-	}
-
-	window.onload = changeImg;
+function nextImage() {
+    slideshowImages[currentImageCounter].style.zIndex = -2;
+    const tempCounter = currentImageCounter;
+    setTimeout(() => {
+        slideshowImages[tempCounter].style.opacity = 0;
+    }, 1000);
+    currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+    slideshowImages[currentImageCounter].style.opacity = 1;
+    slideshowImages[currentImageCounter].style.zIndex = -1;
+}
