@@ -49,7 +49,7 @@ body{
 .portfolio-description{
   grid-area:portfolio-description;
   max-width:auto;
-  text-align: center;
+  text-align: left;
 }
 
 .film-covers{
