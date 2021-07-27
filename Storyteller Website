@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <!-- CSS-->
+    <link rel="stylesheet" href="../css/styleP.css" />
+    <!-- CSS-->
+    <!-- JAVASCRIPT-->
+  <script></script></script>
+  <!-- JAVASCRIPT-->
+
+    <title></title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="official storyteller studios website" />
+    <meta name="keywords" content="storyteller, storyteller studios, film, movies" />
+    <meta name="author" content="Kurt Reynolds" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    </style>
+
+  </head>
+
+
+<body>
+
+  <div id="grid-container">
+  
+   <div class="banner">
+    <img class="topBanner" src="media/common/banner.png" alt="top-banner">
+   </div>
+
+   <div class="navMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>  
+      <li><a href="pages/about.html">About</a></li>  
+      <li><a href="pages/films.html">Films</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>  
+    </ul>
+   </div>
+
+   <div class="C">
+    C
+   </div>
+
+  <div class="D">
+      D
+  </div>
+
+   <div class="E">
+     E
+   </div>
+
+   <div class="F">
+    F
+  </div>
+
+  <div class="G">
+   G
+  </div>
+
+  <div class="H">
+    H
+  </div>
+
+  <!-- <div class="I">
+    I
+  </div>
+
+  <div class="J">
+    J
+  </div>
+
+  <div class="K">
+    K
+  </div>
+
+  <div class="L">
+    L
+  </div>
+
+  <div class="M">
+    M
+  </div>
+
+  <div class="N">
+    N
+  </div>
+
+  <div class="O">
+    O
+  </div>
+
+  <div class="P">
+    P
+  </div>
+
+  <div class="Q">
+    Q
+  </div>
+
+  <div class="R">
+    R
+  </div>
+
+  <div class="S">
+    S
+  </div>
+
+  <div class="T">
+    T
+  </div>
+
+  <div class="U">
+    U
+  </div>
+
+  <div class="V">
+    V
+  </div>
+
+  <div class="W">
+    W
+  </div>
+
+  <div class="X">
+    X
+  </div> -->
+
+</div>
+
+<footer>
+  
+</footer>
+
+
+
+</body>
+</html>
