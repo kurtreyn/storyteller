@@ -397,4 +397,207 @@ max-width:10%;
 
  
 
-/* -------------------- STYLE FOR MOBILE  ----------------- */
+/* -------------------- END STYLE FOR MOBILE  ----------------- */
+
+
+
+
+/* ------------------- BEGIN STYLE FOR ABOUT PAGE ------------- */
+
+
+#grid-container-about {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.8fr 0.1fr 0.03fr;
+  grid-template-areas: 
+  "banner banner banner" /* 1 */
+  "nav-menu nav-menu nav-menu" /* 2 */
+  "page-id page-id page-id" /* 3 */
+  "about-text about-text about-text" /* 4 */
+  "image-gallery image-gallery image-gallery" /* 5 */
+  "photo-credits photo-credits photo-credits" /* 6 */
+  "footer-area footer-area footer-area" /* 7 */
+
+}
+
+.about-text {
+  grid-area: about-text;
+  text-align: left;
+  border-bottom: solid 1px #ffffff;
+  /* border: solid rgb(155, 5, 168) 3px;
+  background-color: #888; */
+}
+
+.image-gallery {
+  grid-area: image-gallery;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: solid 1px #ffffff;
+} 
+
+.img-ls {
+  max-width: 23%;
+}
+
+.img-p {
+  max-width:23%;
+}
+
+.img-ls:hover {
+  transform: scale(1.6);
+}
+
+.img-p:hover {
+  transform: scale(1.6);
+}
+
+.photo-credits {
+  grid-area: photo credits;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- BEGIN STYLE FOR FILMS PAGE ------------- */
+
+#grid-container-films {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.01fr 1fr 0.03fr;
+  grid-template-areas: 
+  "banner banner banner" /* 1 */
+  "nav-menu nav-menu nav-menu" /* 2 */
+  "page-id page-id page-id" /* 3 */
+  "cult-45 cult-45-img cult-45-img" /* 4 */
+  "grey-matter-img grey-matter-img grey-matter " /* 5 */
+  "ghost-among-us ghost-among-us-img ghost-among-us-img" /* 6 */
+  "danger-close-img danger-close-img danger-close" /* 7 */
+  "the-voice the-voice-img the-voice-img" /* 8 */
+  "dating-games-img dating-games-img dating-games" /* 9 */
+  "footer-area footer-area footer-area" /* 10 */
+
+}
+
+.stills {
+  max-width:90%;
+}
+
+.cult-45 {
+  grid-area: cult-45;
+  margin-left:10px;
+}
+
+.cult-45-img {
+  grid-area: cult-45-img;
+  text-align: right;
+}
+
+.grey-matter {
+  grid-area: grey-matter;
+  margin-right:10px;
+}
+
+.grey-matter-img {
+  grid-area: grey-matter-img;
+  text-align: left;
+}
+
+.ghost-among-us {
+  grid-area: ghost-among-us;
+  margin-left:10px;
+}
+
+.ghost-among-us-img {
+  grid-area: ghost-among-us-img;
+  text-align: right;
+}
+
+.danger-close {
+  grid-area: danger-close;
+  margin-right: 10px;
+}
+
+.danger-close-img {
+  grid-area: danger-close-img;
+  text-align: left;
+}
+
+.the-voice {
+  grid-area: the-voice;
+  margin-left; 10px;
+}
+
+.the-voice-img {
+  grid-area: the-voice-img;
+  text-align: right;
+}
+
+.dating-games {
+  grid-area: dating-games;
+  margin-right: 10px;
+}
+
+.dating-games-img {
+  grid-area: dating-games-img;
+  text-align: left;
+}
+
+/* ------------------- END STYLE FOR FILMS PAGE ------------- */
+
+
+
+/* ------------------- BEGIN STYLE FOR CONTACT PAGE ------------- */
+
+
+#grid-container-contact {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.8fr 1fr 0.03fr;
+  grid-template-areas: 
+  "banner banner banner" /* 1 */
+  "nav-menu nav-menu nav-menu" /* 2 */
+  "page-id page-id page-id" /* 3 */
+  "about-text about-text about-text" /* 4 */
+  "film-covers film-covers film-covers" /* 5 */
+  "slider slider text-box-1" /* 6 */
+  "footer-area footer-area footer-area" /* 7 */
+
+}
