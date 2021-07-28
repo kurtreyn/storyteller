@@ -5,203 +5,268 @@ body{
     font-family: 'Montserrat', sans-serif;
   }
 
-
-/* -------------------- STYLE FOR MOBILE  ----------------- */
-
-@media all and (max-width: 375px) {
-  
-  #grid-container {
+                            /* BEGIN MOBILE LAYOUT */
+  #grid-container-films {
     display:grid;
-    height: 100vh;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .3fr .3fr;
     grid-template-areas: 
-    "banner banner" /* 1 */
-    "nav-menu nav-menu" /* 2 */
-    "page-id page-id" /* 3 */
-    "intro-text intro-text" /* 4 */
-    "film-covers film-covers" /* 5 */
-    "text-box-1 text-box-1" /* 6 */
-    "footer-area footer-area" /* 7 */
-
+    "banner" /* 1 */
+    "nav-menu" /* 2 */
+    "page-id" /* 3 */
+    "cult-45"
+    "cult-45-img"
+    "grey-matter"
+    "grey-matter-img"
+    "ghost-among-us"
+    "ghost-among-us-img"
+    "danger-close"
+    "danger-close-img"
+    "the-voice"
+    "the-voice-img"
+    "dating-games"
+    "dating-games-img"
+    "footer-area"
   }
-/* ---- START TOP SECTION: BANNER & NAV MENU ------- */
+
 .banner {
   grid-area: banner;
-  max-width: auto%;
-  /* border: solid #fff 3px; */
+  max-width: 100%;
+  display: inline-block;
 }
 
 .top-banner {
-   width:100%;
-   object-fit: cover;
+  max-width: 100%;
 }
 
 
 .nav-menu {
-   grid-area: nav-menu;
-   /* margin-top: 0px; */
-   text-align: end;
-   height:100%;
-   background-color: rgb(0, 0, 0);
-   /* border: solid rgb(240, 236, 4) 3px; */
+  grid-area: nav-menu;
+  margin-top: 0px;
+  text-align: end;
+  /* background-color: rgb(169, 162, 233);
+  border: solid rgb(240, 236, 4) 3px; */
 }
 
 .nav-menu ul {
- list-style: none;
- bottom:0px;
+list-style: none;
+bottom:0px;
 }
 
 .nav-menu li {
- display: inline-block;
+display: inline-block;
 }
 
 .nav-menu a {
- text-decoration:none;
- color:#ffffff;
- display:block;
- text-transform:uppercase;
- margin-top:0px;
- padding:4px;
- margin-left: -5px;
- font-weight:bold;
- text-align:center;
- font-size:14px;
- border: solid #fff 1px;
- background-color: rgba(0, 0, 0, 0.4);
+text-decoration:none;
+color:#ffffff;
+display:block;
+text-transform:uppercase;
+margin-top:0px;
+padding:4px;
+margin-left: -5px;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+border: solid #fff 1px;
+background-color: rgba(0, 0, 0, 0.4);
 }
 
 .nav-menu a:hover {
- background: #9b9ca7;
+background: #9b9ca7;
 }
-/* ---- END TOP SECTION: BANNER & NAV MENU ------- */
-
-/* ------------- START CONTENT ON INDEX PAGE ----------- */
 
 .page-id {
- grid-area: page-id;
- text-align: center;
- /* border: solid rgb(47, 49, 143) 1px;
- background-color: rgb(49, 64, 131); */
+  grid-area: page-id;
+  font-size: 10px;
 }
 
-.intro-text {
-     grid-area: intro-text;
-     text-align: center;
-     font-size: 12px;
-     /* border: solid rgb(168, 43, 5) 3px;
-     background-color: #888; */
-    
- }
+.stills {
+  max-width: 100%;
+}
 
+.cult-45 {
+  grid-area: cult-45;
+  font-size: 9px;
+}
 
-.film-covers{
-   grid-area:film-covers;
-   max-width:auto;
-   text-align: center;
-   padding: 4px;
-   margin:auto;
-   /* border: solid #fff 1px;
-   background-color: #eee; */
- }
+.cult-45-img {
+  grid-area: cult-45-img;
+  text-align: center;
+}
 
-.cover-image {
-   max-width:30%;
-   display:inline-block;
-   text-align: center;
-   transition: 0.5s;
-   /* border: solid rgb(238, 52, 52) 1px;
-   background-color: #aaa; */
- }
+.grey-matter {
+  grid-area: grey-matter;
+  font-size: 9px;
+  border-top: 1px solid #ffffff;
+}
 
- .cover-image:hover {
-   transform: scale(1.3);
- }
+.grey-matter-img {
+  grid-area: grey-matter-img;
+  text-align: center;
+}
 
+.ghost-among-us {
+  grid-area: ghost-among-us;
+  font-size: 9px;
+  border-top: 1px solid #ffffff;
+}
 
+.ghost-among-us-img {
+  grid-area: ghost-among-us-img;
+  text-align: center;
+}
 
-/*--IMAGE SLIDER SECTION ON INDEX--*/
-#slider {
-  display: none; 
-  grid-area:slider;
-  overflow: hidden;
-   /* border: solid rgb(8, 136, 241) 3px; */
- }
- 
- #slider .img-box {
-   position: relative;
-   width:500%;
-   margin:0;
-   left:0;
-   animation: 20s slider infinite;
- }
- 
- #slider .img-box img {
-   width: 20%;
-   float: left;
- }
- 
- @keyframes slider {
-   0% {
-     left: 0;
-   }
-   20% {
-     left: 0;
-   }
-   25% {
-     left: -100%;
-   }
-   45% {
-     left: -100%;
-   }
-   50% {
-     left: -200%;
-   }
-   70% {
-     left: -200%;
-   }
-   75% {
-     left: -300%;
-   }
-   95% {
-     left: -300%;
-   }
-   100% {
-     left: -400%;
-   }
- }
- 
- .slider-images{
-   width:100%;
- }
- /* ----IMAGE SLIDER SECTION ON INDEX-------*/
+.danger-close {
+  grid-area: danger-close;
+  font-size: 9px;
+  border-top: 1px solid #ffffff;
+}
 
- .text-box-1 {
-   grid-area: text-box-1;
-   margin-left: 10px;
- }
+.danger-close-img {
+  grid-area: danger-close-img;
+  text-align: center;
+}
 
+.the-voice {
+  grid-area: the-voice;
+  font-size: 9px;
+  border-top: 1px solid #ffffff;
+}
+
+.the-voice-img {
+  grid-area: the-voice-img;
+  text-align: center;
+}
+
+.dating-games {
+  grid-area: dating-games;
+  font-size: 9px;
+  border-top: 1px solid #ffffff;
+}
+
+.dating-games-img {
+  grid-area: dating-games-img;
+  text-align: center;
+}
 
 /* --- FOOTER ---*/
 .footer-area{
- text-align: center;
- max-width: 100%;
- margin-bottom: 0px;
- background-color: #000000;
- /* border: solid rgb(17, 247, 9) 3px; */
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 0px;
+  background-color: #000000;
+  /* border: solid rgb(17, 247, 9) 3px; */
+ }
+ 
+ .FaceBookIcon{
+  max-width:10%;
+ }
+ 
+ .footer-image{
+  max-width:20%;
+ }
+ 
+ .YouTubeIcon{
+  max-width:10%;
+ }
+                                            /* END MOBILE LAYOUT */
+
+
+@media all and (min-width: 700px) {
+
+  #grid-container-films {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.01fr 1fr 0.03fr;
+    grid-template-areas: 
+    "banner banner banner" /* 1 */
+    "nav-menu nav-menu nav-menu" /* 2 */
+    "page-id page-id page-id" /* 3 */
+    "cult-45 cult-45-img cult-45-img" /* 4 */
+    "grey-matter-img grey-matter-img grey-matter " /* 5 */
+    "ghost-among-us ghost-among-us-img ghost-among-us-img" /* 6 */
+    "danger-close-img danger-close-img danger-close" /* 7 */
+    "the-voice the-voice-img the-voice-img" /* 8 */
+    "dating-games-img dating-games-img dating-games" /* 9 */
+    "footer-area footer-area footer-area" /* 10 */
+  
+  }
+
+  .banner {
+    grid-area: banner;
+    max-width: 100%;
+    /* border: solid #fff 3px; */
+   }
+   
+   .top-banner {
+     width:100%;
+     object-fit: cover;
+   }
+
+
+.stills {
+  max-width:90%;
 }
 
-.FaceBookIcon{
- max-width:10%;
+.cult-45 {
+  grid-area: cult-45;
+  margin-left:10px;
 }
 
-.footer-image{
- max-width:20%;
+.cult-45-img {
+  grid-area: cult-45-img;
+  text-align: right;
 }
 
-.YouTubeIcon{
- max-width:10%;
-}
+.grey-matter {
+  grid-area: grey-matter;
+  margin-right:10px;
 }
 
-/* -------------------- STYLE FOR MOBILE  ----------------- */
+.grey-matter-img {
+  grid-area: grey-matter-img;
+  text-align: left;
+}
+
+.ghost-among-us {
+  grid-area: ghost-among-us;
+  margin-left:10px;
+}
+
+.ghost-among-us-img {
+  grid-area: ghost-among-us-img;
+  text-align: right;
+}
+
+.danger-close {
+  grid-area: danger-close;
+  margin-right: 10px;
+}
+
+.danger-close-img {
+  grid-area: danger-close-img;
+  text-align: left;
+}
+
+.the-voice {
+  grid-area: the-voice;
+  margin-left; 10px;
+}
+
+.the-voice-img {
+  grid-area: the-voice-img;
+  text-align: right;
+}
+
+.dating-games {
+  grid-area: dating-games;
+  margin-right: 10px;
+}
+
+.dating-games-img {
+  grid-area: dating-games-img;
+  text-align: left;
+}
+
+}
