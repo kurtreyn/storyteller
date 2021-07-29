@@ -191,7 +191,7 @@ max-width:10%;
   "footer-area footer-area footer-area" /* 7 */
 
 }
-/* ---- START TOP SECTION: BANNER & NAV MENU ------- */
+
 .banner {
  grid-area: banner;
  max-width: 100%;
@@ -236,9 +236,7 @@ background-color: rgba(0, 0, 0, 0.4);
 .nav-menu a:hover {
 background: #9b9ca7;
 }
-/* ---- END TOP SECTION: BANNER & NAV MENU ------- */
 
-/* ------------- START CONTENT ON INDEX PAGE ----------- */
 
 .page-id {
 grid-area: page-id;
@@ -506,6 +504,7 @@ background: #9b9ca7;
 .cult-45 {
   grid-area: cult-45;
   font-size: 9px;
+  color:#ffffff;
 }
 
 .cult-45-img {
@@ -516,6 +515,7 @@ background: #9b9ca7;
 .grey-matter {
   grid-area: grey-matter;
   font-size: 9px;
+  color:#ffffff;
   border-top: 1px solid #ffffff;
 }
 
@@ -527,6 +527,7 @@ background: #9b9ca7;
 .ghost-among-us {
   grid-area: ghost-among-us;
   font-size: 9px;
+  color:#ffffff;
   border-top: 1px solid #ffffff;
 }
 
@@ -538,6 +539,7 @@ background: #9b9ca7;
 .danger-close {
   grid-area: danger-close;
   font-size: 9px;
+  color:#ffffff;
   border-top: 1px solid #ffffff;
 }
 
@@ -549,6 +551,7 @@ background: #9b9ca7;
 .the-voice {
   grid-area: the-voice;
   font-size: 9px;
+  color:#ffffff;
   border-top: 1px solid #ffffff;
 }
 
@@ -560,6 +563,7 @@ background: #9b9ca7;
 .dating-games {
   grid-area: dating-games;
   font-size: 9px;
+  color:#ffffff;
   border-top: 1px solid #ffffff;
 }
 
@@ -630,6 +634,7 @@ background: #9b9ca7;
 .cult-45 {
   grid-area: cult-45;
   margin-left:10px;
+  color:#ffffff;
 }
 
 .cult-45-img {
@@ -640,6 +645,7 @@ background: #9b9ca7;
 .grey-matter {
   grid-area: grey-matter;
   margin-right:10px;
+  color:#ffffff;
 }
 
 .grey-matter-img {
@@ -650,6 +656,7 @@ background: #9b9ca7;
 .ghost-among-us {
   grid-area: ghost-among-us;
   margin-left:10px;
+  color:#ffffff;
 }
 
 .ghost-among-us-img {
@@ -660,6 +667,7 @@ background: #9b9ca7;
 .danger-close {
   grid-area: danger-close;
   margin-right: 10px;
+  color:#ffffff;
 }
 
 .danger-close-img {
@@ -670,6 +678,7 @@ background: #9b9ca7;
 .the-voice {
   grid-area: the-voice;
   margin-left; 10px;
+  color:#ffffff;
 }
 
 .the-voice-img {
@@ -680,6 +689,7 @@ background: #9b9ca7;
 .dating-games {
   grid-area: dating-games;
   margin-right: 10px;
+  color:#ffffff;
 }
 
 .dating-games-img {
