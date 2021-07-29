@@ -634,6 +634,7 @@ background: #9b9ca7;
 .cult-45 {
   grid-area: cult-45;
   margin-left:10px;
+  font-size: 12px;
   color:#ffffff;
 }
 
@@ -645,7 +646,14 @@ background: #9b9ca7;
 .grey-matter {
   grid-area: grey-matter;
   margin-right:10px;
+  font-size: 12px;
   color:#ffffff;
+}
+
+.grey-matter h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
 .grey-matter-img {
@@ -656,7 +664,14 @@ background: #9b9ca7;
 .ghost-among-us {
   grid-area: ghost-among-us;
   margin-left:10px;
+  font-size: 12px;
   color:#ffffff;
+}
+
+.ghost-among-us h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
 .ghost-among-us-img {
@@ -667,7 +682,14 @@ background: #9b9ca7;
 .danger-close {
   grid-area: danger-close;
   margin-right: 10px;
+  font-size: 12px;
   color:#ffffff;
+}
+
+.danger-close h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
 .danger-close-img {
@@ -678,7 +700,14 @@ background: #9b9ca7;
 .the-voice {
   grid-area: the-voice;
   margin-left; 10px;
+  font-size: 12px;
   color:#ffffff;
+}
+
+.the-voice h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
 .the-voice-img {
@@ -689,7 +718,14 @@ background: #9b9ca7;
 .dating-games {
   grid-area: dating-games;
   margin-right: 10px;
+  font-size: 12px;
   color:#ffffff;
+}
+
+.dating-games h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
 }
 
 .dating-games-img {
