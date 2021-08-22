@@ -5,6 +5,16 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+href {
+  color: white;
+  font-weight: bolder;
+}
+
+h2 {
+  color: white;
+  font-weight: bolder;
+}
+
 /* ------------------- BEGIN STYLE FOR INDEX PAGE ------------- */
 
                         /* START MOBILE LAYOUT INDEX PAGE */
@@ -13,7 +23,7 @@ body{
   max-height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr .3fr .3fr;
-  grid-template-areas: 
+  grid-template-areas:
   "banner" /* 1 */
   "nav-menu" /* 2 */
   "page-id" /* 3 */
@@ -181,7 +191,7 @@ max-width:10%;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.8fr 1fr 0.03fr;
-  grid-template-areas: 
+  grid-template-areas:
   "banner banner banner" /* 1 */
   "nav-menu nav-menu nav-menu" /* 2 */
   "page-id page-id page-id" /* 3 */
@@ -366,7 +376,7 @@ max-width:10%;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.8fr 0.1fr 0.03fr;
-  grid-template-areas: 
+  grid-template-areas:
   "banner banner banner" /* 1 */
   "nav-menu nav-menu nav-menu" /* 2 */
   "page-id page-id page-id" /* 3 */
@@ -391,7 +401,7 @@ max-width:10%;
   text-align: center;
   margin-top: 20px;
   border-bottom: solid 1px #ffffff;
-} 
+}
 
 .img-ls {
   max-width: 23%;
@@ -426,7 +436,7 @@ max-width:10%;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr .3fr .3fr;
-    grid-template-areas: 
+    grid-template-areas:
     "banner" /* 1 */
     "nav-menu" /* 2 */
     "page-id" /* 3 */
@@ -580,15 +590,15 @@ background: #9b9ca7;
   background-color: #000000;
   /* border: solid rgb(17, 247, 9) 3px; */
  }
- 
+
  .FaceBookIcon{
   max-width:10%;
  }
- 
+
  .footer-image{
   max-width:20%;
  }
- 
+
  .YouTubeIcon{
   max-width:10%;
  }
@@ -601,7 +611,7 @@ background: #9b9ca7;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.01fr 1fr 0.03fr;
-    grid-template-areas: 
+    grid-template-areas:
     "banner banner banner" /* 1 */
     "nav-menu nav-menu nav-menu" /* 2 */
     "page-id page-id page-id" /* 3 */
@@ -612,7 +622,7 @@ background: #9b9ca7;
     "the-voice the-voice-img the-voice-img" /* 8 */
     "dating-games-img dating-games-img dating-games" /* 9 */
     "footer-area footer-area footer-area" /* 10 */
-  
+
   }
 
   .banner {
@@ -620,7 +630,7 @@ background: #9b9ca7;
     max-width: 100%;
     /* border: solid #fff 3px; */
    }
-   
+
    .top-banner {
      width:100%;
      object-fit: cover;
@@ -747,7 +757,7 @@ background: #9b9ca7;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.4fr 0.1fr 0.05fr 0.01fr 0.8fr 1fr 0.03fr;
-  grid-template-areas: 
+  grid-template-areas:
   "banner banner banner" /* 1 */
   "nav-menu nav-menu nav-menu" /* 2 */
   "page-id page-id page-id" /* 3 */
